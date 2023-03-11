@@ -21,7 +21,7 @@ function Footer() {
             <p>
                 &copy;
                 2023
-                websiteURL;
+                websiteURL
             </p>
         </div>
     )
