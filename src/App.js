@@ -1,5 +1,6 @@
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import './App.css';
+import {useEffect} from 'react';
 
 import Home from './pages/Home';
 import Projects from './pages/Projects';
@@ -11,6 +12,11 @@ import Footer from './components/Footer';
 //! LINK: https://www.youtube.com/watch?v=x7mwVn2z3Sk
 
 function App() {
+
+  useEffect(() => {
+    document.title = "Portfolio Website";
+  }, []);
+
   return (
     <div className="App">
       <Router>

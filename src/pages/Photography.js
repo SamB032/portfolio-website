@@ -10,7 +10,7 @@ function Photography() {
             <div className="photoList">
                 {PhotoList.map((photo) => {
                     return (
-                        <PhotoItem image={photo.image}/>
+                        <PhotoItem key={photo.id} image={photo.image}/>
                     )
                 })  }
             </div>
