@@ -1,11 +1,14 @@
 import React from "react";
+import {Link} from 'react-router-dom';
 
-function ProjectItem({image, name}) {
+function ProjectItem({image, name, link}) {
     return (
-        <div className="projectItem">
-            <div style={{backgroundImage: `url(${image})`}} className="bgImage"/>
-            <h1> {name} </h1>
-        </div>
+        <Link to={link}>
+            <div className="projectItem">
+                <div style={{backgroundImage: `url(${image})`}} className="bgImage"/>
+                <h1>{name}</h1>
+            </div>        
+        </Link>
     )
 }
 
