@@ -21,7 +21,7 @@ function Footer() {
             <p>
                 &copy;
                 2023
-                websiteURL
+                samb032.github.io/portfolio-website
             </p>
         </div>
     )
