@@ -21,7 +21,7 @@ function Home() {
                         <li className="item">
                             <h2>Frontend</h2>
                             <span>
-                                HTML, CSS, React, JavaScipt, Qt5, NPM
+                                HTML, CSS, React, JavaScript, Qt5, NPM
                             </span>
                         </li>
                     </ol>
