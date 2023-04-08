@@ -8,8 +8,9 @@ function Home() {
                 <h2>Hello, My name is Sam</h2>
                 <div className="prompt">
                     <p>
-                        A dedicated, engaged and creative computer science undergraduate.
-                        Who is dedicated to applying my knowledge to a workplace enviroment.
+                    I am a passionate computer science undergraduate who loves to solve complex problems and create innovative
+                    solutions. I have a solid foundation in programming languages like Python, Java, C and JavaScript. 
+                    My ultimate goal is to use my technical knowledge and creativity to make a positive impact on the world.
                     </p>
                 </div>
             </div>

@@ -5,7 +5,10 @@ import Link from '@material-ui/core/Link';
 
 import '../styles/Footer.css';
 
+
 function Footer() {
+    const currentYear = new Date().getFullYear();
+
     return (
         <div className="footer">
             <div className="socialMedia"> 
@@ -20,7 +23,7 @@ function Footer() {
             </div>
             <p>
                 &copy;
-                2023
+                <span>{currentYear} </span>
                 samb032.github.io/portfolio-website
             </p>
         </div>

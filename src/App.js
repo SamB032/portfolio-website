@@ -18,10 +18,10 @@ function App() {
 
   return (
     <div className="App">
-      <Router>
+      <Router basename="/portfolio-website">
         <Navbar/>
         <Routes>
-          <Route path="/portfolio-website" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/photography" element={<Photography />} />
         </Routes>
