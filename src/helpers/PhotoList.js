@@ -12,4 +12,4 @@ export const PhotoList = [
     {image: photo4},
     {image: photo5},
     {image: photo6}
-];
+].sort(() => Math.random() - 0.5);

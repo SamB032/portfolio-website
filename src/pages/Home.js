@@ -42,7 +42,7 @@ function Home() {
                                 Python, Java, C, JavaScript
                             </span>
                         </li>
-                    </ol>
+                    </ol> 
             </div>
         </div>
     )
