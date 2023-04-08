@@ -9,8 +9,6 @@ import Photography from './pages/Photography';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 
-//! LINK: https://www.youtube.com/watch?v=x7mwVn2z3Sk
-
 function App() {
 
   useEffect(() => {
