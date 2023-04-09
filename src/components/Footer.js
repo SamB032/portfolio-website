@@ -24,7 +24,7 @@ function Footer() {
             <p>
                 &copy;
                 <span>{currentYear} </span>
-                samb032.github.io/portfolio-website
+                s.boffey.wales
             </p>
         </div>
     )
