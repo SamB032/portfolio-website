@@ -4,10 +4,9 @@
   --yellow: #e9d35b;
 }
 
-
 .App {
   text-align: center;
-  font-family: "Arial", Geneva ,sans-serif;
+  font-family: sans-serif, "Arial", Geneva;
 }
 
 body {

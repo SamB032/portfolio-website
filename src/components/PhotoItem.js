@@ -5,7 +5,7 @@ function PhotoItem({image}) {
         <div className="photoItem">
             <div style={{backgroundImage: `url(${image})`}} className="bgImage"/>
         </div>
-    )
+    );
 }
 
 export default PhotoItem;
