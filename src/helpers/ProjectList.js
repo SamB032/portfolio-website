@@ -3,7 +3,6 @@ import proj2 from "../assets/project2.png";
 import proj3 from "../assets/project3.png";
 import proj4 from "../assets/project4.png";
 import proj5 from "../assets/project5.png";
-import proj6 from "../assets/project6.png";
 
 export const ProjectList = [
     {
@@ -27,13 +26,8 @@ export const ProjectList = [
         link: "https://github.com/SamB032/Reverse-Polish-Notation-Caculator"
     },
     {
-        name: "Studybud chat application",
-        image: proj5,
-        link: "https://github.com/SamB032/Sam-Studybud"
-    },
-    {
         name: "Tetris",
-        image: proj6,
+        image: proj5,
         link: "https://github.com/SamB032/pygame-Tetris"
     }
 ];

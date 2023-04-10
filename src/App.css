@@ -1,5 +1,13 @@
+:root {
+  --primary: #0a1c4b;
+  --white: #ffffff;
+  --yellow: #e9d35b;
+}
+
+
 .App {
   text-align: center;
+  font-family: "Arial", Geneva ,sans-serif;
 }
 
 body {
