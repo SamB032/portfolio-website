@@ -1,12 +1,14 @@
-import photo1 from "../assets/photo1.jpeg";
-import photo2 from "../assets/photo2.jpeg";
-import photo3 from "../assets/photo3.jpeg";
-import photo4 from "../assets/photo4.jpeg";
-import photo5 from "../assets/photo5.jpeg";
-import photo6 from "../assets/photo6.jpeg";
-import photo7 from "../assets/photo7.jpeg";
-import photo8 from "../assets/photo8.jpeg";
-import photo9 from "../assets/photo9.jpeg";
+import photo1 from "../assets/photo1.webp";
+import photo2 from "../assets/photo2.webp";
+import photo3 from "../assets/photo3.webp";
+import photo4 from "../assets/photo4.webp";
+import photo5 from "../assets/photo5.webp";
+import photo6 from "../assets/photo6.webp";
+import photo7 from "../assets/photo7.webp";
+import photo8 from "../assets/photo8.webp";
+import photo9 from "../assets/photo9.webp";
+
+//Command: cwebp file.jpeg -o file.webp
 
 export const PhotoList = [
     {image: photo1},
