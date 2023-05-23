@@ -5,7 +5,7 @@ function ProjectItem({image, name, link}) {
     return (
         <Link to={link}>
             <div className="projectItem">
-                <div style={{backgroundImage: `url(${image})`}} className="bgImage"/>
+                <div loading="lazy" style={{backgroundImage: `url(${image})`}} className="bgImage"/>
                 <h1>{name}</h1>
             </div>        
         </Link>
