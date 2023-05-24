@@ -12,7 +12,7 @@ import './App.css';
 function App() {
 
   useEffect(() => {
-    document.title = "Portfolio Website";
+    document.title = "Portfolio";
   }, []);
 
   return (

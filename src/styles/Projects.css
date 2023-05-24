@@ -5,12 +5,10 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    color: var(--primary);
   }
   
   .projects .projectTitle {
     text-align: center;
-    color: var(--primary);
     font-size: 60px;
     font-weight: bolder;
     
@@ -25,7 +23,6 @@
   }
 
   .content {
-    color: var(--grey);
     font-size: 18px;
     justify-content: center;
     width: 60%;
@@ -38,7 +35,7 @@
     width: 300px;
     height: 300px;
     margin: 30px;
-    background-color: var(--background-ligher);
+    background-color: var(--lightest-navy);
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
     text-align: center;
   }
@@ -60,7 +57,7 @@
   
   .projectItem h1 {
     font-size: 20px;
-    color: var(--grey);
+    color: var(--lightest-slate);
     text-decoration: none !important;;
   }
   

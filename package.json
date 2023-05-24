@@ -1,6 +1,6 @@
 {
   "homepage": "https://s.boffey.wales/",
-  "name": "portfolio-website",
+  "name": "portfolio",
   "version": "1.0.0",
   "private": true,
   "dependencies": {

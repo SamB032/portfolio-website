@@ -9,7 +9,7 @@ function Projects() {
 
             <p className="content"> 
                 Here is my project portfolio. This is where can find serval of my past projects. 
-                By clicking on a project, it will send you to github repository containing source code and
+                By clicking on a project, it will send you to GitHub repository containing source code and
                 instructions. 
             </p>
 
