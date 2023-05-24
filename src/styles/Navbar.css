@@ -1,7 +1,7 @@
 .navbar {
     width: 100%;
     height: 100px;
-    background: var(--primary);
+    background-color: var(--background);
 }
 
 .links {
@@ -10,11 +10,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--white);
+  color: var(--grey);
 }
 
 .navbar a {
-  color: var(--white);
+  color: var(--grey);
   text-decoration: none;
   margin: 20px;
   font-size: 25px;
@@ -35,7 +35,7 @@
   margin-right: 20px;
   background-color: transparent;
   border: none;
-  color: var(--white);
+  color: var(--grey);
   cursor: pointer;
 }
 

@@ -1,15 +1,20 @@
 :root {
-  --primary: #0a1c4b;
-  --white: #ffffff;
-  --yellow: #e9d35b;
+  --background: #0f172a;
+  --text: #ffffff;
+  --button-color: #0060df;
+  
+  --light-grey: #F0F0F4;
+  --grey: #cdcddf;
+  --dark-grey: #6f6f7d; 
 }
 
 .App {
   text-align: center;
-  font-family: sans-serif, "Arial", Geneva;
+  font-family: "__inter_20b187","__inter_Fallback_20b187", sans-serif, "Arial";
 }
 
 body {
+  background-color: var(--background);
   padding: 0;
   margin: 0;  
 }
