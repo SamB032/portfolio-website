@@ -1,9 +1,7 @@
 :root {
   --background: #0f172a;
-  --text: #ffffff;
-  --button-color: #0060df;
+  --background-ligher: #152548;
   
-  --light-grey: #F0F0F4;
   --grey: #cdcddf;
   --dark-grey: #6f6f7d; 
 }
