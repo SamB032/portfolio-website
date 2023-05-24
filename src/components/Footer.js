@@ -13,17 +13,17 @@ function Footer() {
         <div className="footer">
             <div className="socialMedia"> 
 
-            <Link href="https://www.linkedin.com/in/samboffey/" target="_blank" >
-                <LinkedIn/>
-            </Link>
-            
-            <Link href="https://github.com/SamB032" target="_blank" >
-                <GitHub/>
-            </Link>
+                <Link href="https://www.linkedin.com/in/samboffey/" target="_blank" >
+                    <LinkedIn/>
+                </Link>
+                
+                <Link href="https://github.com/SamB032" target="_blank" >
+                    <GitHub/>
+                </Link>
 
-            <Link href="mailto:sam.boffey04@gmail.com" target="_blank" >
-                <Email/>
-            </Link>
+                <Link href="mailto:sam.boffey04@gmail.com" target="_blank" >
+                    <Email/>
+                </Link>
                
             </div>
             <p>
