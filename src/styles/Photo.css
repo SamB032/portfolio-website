@@ -8,7 +8,7 @@
   }
 
   .content {
-    color: var(--lightest-slate);
+    color: var(--slate);
     font-size: 18px;
     justify-content: center;
     width: 60%;
