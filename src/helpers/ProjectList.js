@@ -3,7 +3,7 @@ import proj2 from "../assets/project2.webp";
 import proj3 from "../assets/project3.webp";
 import proj4 from "../assets/project4.webp";
 import proj5 from "../assets/project5.webp";
-import proj6 from "../assets/project6.webp";
+
 
 export const ProjectList = [
     {
@@ -17,23 +17,18 @@ export const ProjectList = [
         link: "https://github.com/SamB032/shortest-path-algorithm"
     },
     {
-        name: "Dungeon Game",
-        image: proj3,
-        link: "https://github.com/SamB032/Dungeon-Game"
-    },
-    {
-        name: "Reverse Polish Notation calculator",
-        image: proj4,
-        link: "https://github.com/SamB032/Reverse-Polish-Notation-Caculator"
-    },
-    {
         name: "Tetris",
-        image: proj5,
+        image: proj3,
         link: "https://github.com/SamB032/pygame-Tetris"
     },
     {
         name: "Portfolio website",
-        image: proj6,
+        image: proj4,
         link: "https://github.com/SamB032/portfolio-website"
+    }, 
+    {
+        name: "Connect4 against Computer Controlled Player",
+        image: proj5,
+        link: "https://github.com/SamB032/connect4"
     }
 ];

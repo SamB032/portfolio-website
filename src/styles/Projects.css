@@ -5,39 +5,38 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-  }
+}
 
-  .content {
+.content {
     color: var(--slate);
     font-size: 18px;
     justify-content: center;
     width: 60%;
-  }
+}
   
   .projects .projectTitle {
     text-align: center;
     font-size: 60px;
-    font-weight: bolder;
-    
-  }
+    font-weight: bolder;   
+}
   
-  .projectList {
+.projectList {
     width: 85vw;
     height: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     place-items: center;
-  }
+}
 
-  .content {
+.content {
     font-size: 18px;
     justify-content: center;
     width: 60%;
-  } 
+} 
   
   /* MENU ITEM STYLING */
   
-  .projectItem {
+.projectItem {
     border-radius: 15px;
     width: 300px;
     height: 300px;
@@ -46,14 +45,15 @@
     background-color: var(--lightest-navy);
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
     text-align: center;
-  }
-  .projectItem:hover {
+}
+
+.projectItem:hover {
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
     transition: 0.3s ease-in;
     cursor: pointer;
-  }
+}
   
-  .projectItem .bgImage {
+.projectItem .bgImage {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     width: 100%;
@@ -61,35 +61,35 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
+}
   
-  .projectItem h1 {
+.projectItem h1 {
     font-size: 20px;
     color: var(--lightest-slate);
     text-decoration: none !important;;
-  }
+}
   
-  @media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1300px) {
     .projectList {
-      grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
     }
-  }
+}
   
-  @media only screen and (max-width: 800px) {
+@media only screen and (max-width: 800px) {
     .projectList {
-      grid-template-columns: 1fr;
+        grid-template-columns: 1fr;
     }
-  }
+}
   
-  @media only screen and (max-width: 800px) {
+@media only screen and (max-width: 800px) {
     .projectItem {
       width: 300px;
       height: 300px;
     }
-  }
+}
 
-  @media only screen and (max-width: 400px){
+@media only screen and (max-width: 400px){
     .project {
-      align-items: normal;
+        align-items: normal;
     }
-  }
+}
