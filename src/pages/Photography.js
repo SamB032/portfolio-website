@@ -12,11 +12,9 @@ function Photography() {
                 It's amazing how good modern smartphones are. Feel free to use these if you want.
             </p>
             <div className="photoList">
-                {PhotoList.map((photo) => {
-                    return (
-                        <PhotoItem key={photo.id} image={photo.image}/>
-                    )
-                })  }
+                {PhotoList.map((photo, i) => (
+                    <PhotoItem key={`PhotoItem-${i}`} image={photo} />
+                ))}
             </div>
         </div>
 

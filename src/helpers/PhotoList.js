@@ -7,17 +7,16 @@ import photo6 from "../assets/photo6.webp";
 import photo7 from "../assets/photo7.webp";
 import photo8 from "../assets/photo8.webp";
 import photo9 from "../assets/photo9.webp";
+import photo10 from "../assets/photo10.webp";
+import photo11 from "../assets/photo11.webp";
+import photo12 from "../assets/photo12.webp";
+import photo13 from "../assets/photo13.webp";
+
 
 //Command: cwebp file.jpeg -o file.webp
 
 export const PhotoList = [
-    {image: photo1},
-    {image: photo2},
-    {image: photo3},
-    {image: photo4},
-    {image: photo5},
-    {image: photo6},
-    {image: photo7},
-    {image: photo8},
-    {image: photo9}
-].sort(() => Math.random() - 0.5);
+    photo1, photo2, photo3, photo4, photo5, 
+    photo6, photo7, photo8, photo9, photo10,
+    photo11, photo12, photo13
+    ].sort(() => Math.random() - 0.5);
