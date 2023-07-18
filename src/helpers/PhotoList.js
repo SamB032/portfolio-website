@@ -12,7 +12,6 @@ import photo11 from "../assets/photo11.webp";
 import photo12 from "../assets/photo12.webp";
 import photo13 from "../assets/photo13.webp";
 
-
 //Command: cwebp file.jpeg -o file.webp
 
 export const PhotoList = [
