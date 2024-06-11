@@ -13,10 +13,10 @@ import photo12 from "../assets/photo12.webp";
 import photo13 from "../assets/photo13.webp";
 import photo14 from "../assets/photo14.webp";
 import photo15 from "../assets/photo15.webp";
-import photo16 from "../assets/photo16.webp";
 import photo17 from "../assets/photo17.webp";
-import photo18 from "../assets/photo18.webp";
-import photo19 from "../assets/photo19.webp";
+import photo20 from "../assets/photo20.webp";
+import photo21 from "../assets/photo21.webp";
+import photo22 from "../assets/photo22.webp";
 
 //Command: cwebp file.jpeg -o file.webp
 
@@ -24,5 +24,5 @@ export const PhotoList = [
     photo1, photo2, photo3, photo4, photo5, 
     photo6, photo7, photo8, photo9, photo10,
     photo11, photo12, photo13, photo14, photo15,
-    photo16, photo17, photo18, photo19
+    photo17, photo20, photo21, photo22
     ].sort(() => Math.random() - 0.5);
