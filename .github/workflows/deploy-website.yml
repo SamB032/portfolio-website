@@ -1,26 +1,34 @@
-name: Build and Deploy React app
+name: Build and Deploy React App
 
 on:
   push:
-    branches: [ "master" ]
+    branches:
+      - master
   pull_request:
-    branches: [ "master" ]
+    branches:
+      - master
 
 jobs:
   build:
     runs-on: ubuntu-latest
     
     steps:
-    - uses: actions/checkout@v3
+    - name: Checkout code
+      uses: actions/checkout@v3
 
-    - name: Build and Deploy React app to GitHub Pages
-      uses: omkartapale/react-deployment-gh-pages@v1.0.0
+    - name: Install dependencies
+      run: npm install --legacy-peer-deps
 
-    - run : npm install --legacy-peer-deps
-    - run : npm --legacy-peer-deps
-    - run : npm run build
-    - run : git config user.name github-actions
-    - run : git config user.email github-actions@github.com
-    - run : git --work-tree build add --all
-    - run : git commit -m "Automatic Build and Deploy run by GitHub Actions"
-    - run : git push origin HEAD:gh-pages --force
+    - name: Build the app
+      run: npm run build
+
+    - name: Configure Git
+      run: |
+        git config user.name github-actions
+        git config user.email github-actions@github.com
+
+    - name: Deploy to gh-pages
+      run: |
+        git --work-tree build add --all
+        git commit -m "Automatic Build and Deploy run by GitHub Actions"
+        git push origin HEAD:gh-pages --force
