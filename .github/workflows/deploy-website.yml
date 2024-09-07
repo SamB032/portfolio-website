@@ -1,5 +1,4 @@
 name: Build and Deploy React app
-description: 'GitHub Action to build and deploy React app in gh-pages branch.'
 
 on:
   push:
