@@ -1,4 +1,5 @@
-name: Build and Deploy
+name: Build and Deploy React app
+description: 'GitHub Action to build and deploy React app in gh-pages branch.'
 
 on:
   push:
@@ -8,7 +9,6 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
     
     steps:
@@ -16,3 +16,12 @@ jobs:
 
     - name: Build and Deploy React app to GitHub Pages
       uses: omkartapale/react-deployment-gh-pages@v1.0.0
+
+    - run : npm install --legacy-peer-deps
+    - run : npm --legacy-peer-deps
+    - run : npm run build
+    - run : git config user.name github-actions
+    - run : git config user.email github-actions@github.com
+    - run : git --work-tree build add --all
+    - run : git commit -m "Automatic Build and Deploy run by GitHub Actions"
+    - run : git push origin HEAD:gh-pages --force
