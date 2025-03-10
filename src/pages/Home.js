@@ -13,16 +13,18 @@ function Home() {
                 
                 <div className="prompt">
                     <p>
-                    I love to solve complex problems and create innovative solutions. My ultimate goal is to use my technical knowledge and creativity to make a positive impact on the world.
+                      I’m a DevOps Engineer passionate about automation, cloud-native technologies, and building scalable, resilient infrastructure. I specialise in CI/CD, container orchestration, cloud platforms, services and tooling.
                     </p>
+
                     <p>
-                    I'm currently studying at the University of Bath. During my first year, we covered essential Computer Science topics such as Artificial Intelligence, System Architecture,
-                    Principles of Programming and Mathematics needed for Computation. I have a solid foundation in programming languages like Python, Java, C and JavaScript. You can check the projects page
-                    for some cool things, or read up on my LinkedIn page.
+                      With experience across startup and enterprises, I’ve worked on building full-scale applications, optimising workflows, improving improving security, and enhancing developer productivity.
+                    </p>
+
+                    <p>
+                      Outside of work, you’ll find me at the gym, capturing moments through photography, exploring the outdoors, flying simulators, or—when adventure calls—roaming Hyrule in search of new discoveries.
                     </p>
                 </div>
             </div>
-
         </div>
     )
 }

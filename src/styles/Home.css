@@ -11,21 +11,23 @@
   .about .intro {
     font-size: 18px;
     margin: 0px;
-    color: var(--lightest-slate);
+    color: var(--green);
     align-items: left;
     font-family: var(--font-mono);
   }
 
   .about .name{
-    font-size: 45px;
+    font-size: 50px;
     color: var(--lightest-slate);
+    font-weight: bold;
     margin: 0px;
     align-items: center;
   }
 
   .about .statement{
-    font-size: 45px;
+    font-size: 50px;
     margin: 0px;
+    font-weight: bold;
     color: var(--slate);
     align-items: center;
   }
