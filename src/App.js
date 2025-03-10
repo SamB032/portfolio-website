@@ -3,7 +3,7 @@ import {useEffect} from 'react';
 
 import Home from './pages/Home';
 import Projects from './pages/Projects';
-import Photography from './pages/Photography';
+import Gallery from './pages/Gallery';
 import PageNotFound from './pages/PageNotFound';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -22,7 +22,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
-          <Route path="/photography" element={<Photography />} />
+          <Route path="/gallery" element={<Gallery />} />
           <Route path="*" element={<PageNotFound />} />
         </Routes>
         <Footer/>

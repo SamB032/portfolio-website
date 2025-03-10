@@ -3,7 +3,7 @@ import PhotoItem from "../components/PhotoItem";
 import {PhotoList} from "../helpers/PhotoList";
 import "../styles/Photo.css";
 
-function Photography() {
+function Gallery() {
     return (
         <div className="photos">
             <p className="content"> 
@@ -21,4 +21,4 @@ function Photography() {
     )
 }
 
-export default Photography;
+export default Gallery;
