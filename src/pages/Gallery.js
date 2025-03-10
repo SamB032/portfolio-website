@@ -1,27 +1,24 @@
 import React from 'react';
-import ProjectItem from '../components/ProjectItem';
-import {ProjectList} from '../helpers/ProjectList';
-import "../styles/Projects.css";
+import PhotoItem from "../components/PhotoItem";
+import {PhotoList} from "../helpers/PhotoList";
+import "../styles/Photo.css";
 
-function Projects() {
+function Photography() {
     return (
-        <div className="projects">
-
+        <div className="photos">
             <p className="content"> 
-                Here is my project portfolio. This is where can find serval of my past projects. 
-                By clicking on a project, it will send you to GitHub repository containing source code and
-                instructions. 
+                Photography is one of my hobbies. I thought it is a good idea to dedicate a page
+                on this website to displaying photos. Most of these were taken using a modern smartphone. 
+                It's amazing how good modern smartphones are. Feel free to use these if you want.
             </p>
-
-            <div className="projectList">
-                {ProjectList.map((project) => {
-                    return (
-                        <ProjectItem key={project.name} name={project.name} image={project.image} link={project.link} target="_blank"/>
-                    )
-                })  }
+            <div className="photoList">
+                {PhotoList.map((photo, i) => (
+                    <PhotoItem key={`PhotoItem-${i}`} image={photo} />
+                ))}
             </div>
         </div>
+
     )
 }
 
-export default Projects;
+export default Photography;
