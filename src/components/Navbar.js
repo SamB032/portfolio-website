@@ -11,17 +11,34 @@ function Navbar() {
         setExpandNavbar(false);
     }, [location]);
 
+    const linkMapping = [
+      { uri: "/", displayName: "Home" },
+      { uri: "/projects", displayName: "Projects" },
+      { uri: "/gallery", displayName: "Gallery" }
+    ]
+
     return (
         <div className="navbar" id={expandNavbar ? "open": "close"}>
-            <div className="toggleButton">
-                <button onClick={() => {setExpandNavbar((prev) => !prev)}}> 
-                    <ReorderIcon/> 
-                </button>
-            </div>
-            <div className="links">
-                <Link to="/"> Home </Link>
-                <Link to="/projects"> Projects </Link>
-                <Link to="/photography"> Photography </Link>
+            <div className="navbar-align">
+              <div className="toggleButton">
+                  <button onClick={() => {setExpandNavbar((prev) => !prev)}}> 
+                      <ReorderIcon/> 
+                  </button>
+              </div>
+              <div className="links">
+                {linkMapping.map((link, index) => (
+                  <Link key={index} to={link.uri}> 
+                    <div class="displayLink">
+                      <span class="displayLinkNumber">
+                        {String(index + 1).padStart(2, '0')}. 
+                      </span>
+                      <span class="dispayLinkName">
+                        {link.displayName}
+                      </span>
+                    </div>
+                  </Link>
+                ))}
+              </div>
             </div>
         </div>
     )

@@ -3,9 +3,9 @@
     flex-direction: column;
     justify-content: center;
     padding-left: 200px;
-    padding-top: 30px;
     text-align: left;
     color: var(--lightest-slate);
+    margin-left: 20px;
   }
   
   .about .intro {
@@ -36,7 +36,7 @@
     width: 55%;
     color: var(--slate);
     text-align: left;
-    font-size: 22px;
+    font-size: 18px;
   }
   
   @media only screen and (max-width: 875px) {

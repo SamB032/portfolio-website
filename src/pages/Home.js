@@ -21,7 +21,7 @@ function Home() {
                     </p>
 
                     <p>
-                      Outside of work, you’ll find me at the gym, capturing moments through photography, exploring the outdoors, flying simulators, or—when adventure calls—roaming Hyrule in search of new discoveries.
+                      Outside of work, you’ll find me at the gym, capturing moments through photography, exploring the outdoors, flying simulators, or "when adventure calls" roaming Hyrule in search of new discoveries.
                     </p>
                 </div>
             </div>
