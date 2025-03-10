@@ -28,11 +28,11 @@ function Navbar() {
               <div className="links">
                 {linkMapping.map((link, index) => (
                   <Link key={index} to={link.uri}> 
-                    <div class="displayLink">
-                      <span class="displayLinkNumber">
+                    <div className="displayLink">
+                      <span className="displayLinkNumber">
                         {String(index + 1).padStart(2, '0')}. 
                       </span>
-                      <span class="dispayLinkName">
+                      <span className="dispayLinkName">
                         {link.displayName}
                       </span>
                     </div>
