@@ -42,4 +42,4 @@ export const ProjectList = [
         link: "https://devpost.com/software/modelhive",
         description: "Real-time artifical intelligence insights. Learn how different algorithms work."
     },
-];
+].sort(() => Math.random() - 0.5);

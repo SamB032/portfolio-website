@@ -67,18 +67,17 @@
   text-align: center;
 }
 
-@media only screen and (max-width: 900px) {
-  .navbar a {
-    width: 70px;
-  }
-}
-
 @media only screen and (max-width: 600px) {
   .toggleButton {
     display: flex;
   }
+
   #close a {
     display: none;
+  }
+
+  .navbar-align {
+    position: unset;
   }
 }
 
