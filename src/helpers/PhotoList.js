@@ -127,7 +127,7 @@ export const images = [
     src: photo21,
     alt: "Newgale Sunset, Wales",
     width: 920,
-    height: 520,
+    height: 420,
   },
   {
     src: photo22,

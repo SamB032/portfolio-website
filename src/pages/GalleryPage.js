@@ -28,6 +28,7 @@ function GalleryPage() {
           images={images} 
           onClick={handleClick}
           enableImageSelection={false}
+          rowHeight={210}
         />
         <Lightbox
           slides={images}
