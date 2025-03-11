@@ -1,10 +1,15 @@
 .photos {
     width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    margin: auto;
+    text-align: center;
+}
+
+.galleryHeader {
+  color: var(--lightest-slate);
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 15px;
 }
 
 .content {
@@ -12,6 +17,8 @@
     font-size: 18px;
     justify-content: center;
     width: 60%;
+    margin: auto;
+    margin-bottom: 20px;
 }
 
 .photoList {
