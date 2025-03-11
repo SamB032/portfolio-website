@@ -1,10 +1,17 @@
 import React from 'react';
+import { useState } from "react";
 import { Gallery } from "react-grid-gallery";
+import Lightbox from "yet-another-react-lightbox";
+import "yet-another-react-lightbox/styles.css";
+
 import PhotoItem from "../components/PhotoItem";
-import {PhotoList, images} from "../helpers/PhotoList";
+import {images} from "../helpers/PhotoList";
 import "../styles/Photo.css";
 
 function GalleryPage() {
+  const [index, setIndex] = useState(-1);
+  const handleClick = (index, item) => setIndex(index);
+
   return (
     <div>
       <div className="photos">
@@ -17,7 +24,17 @@ function GalleryPage() {
       </div>
     
       <div>
-        <Gallery images={images} />
+        <Gallery 
+          images={images} 
+          onClick={handleClick}
+          enableImageSelection={false}
+        />
+        <Lightbox
+          slides={images}
+          open={index >= 0}
+          index={index}
+          close={() => setIndex(-1)}
+        />
       </div>
     </div>
   )
