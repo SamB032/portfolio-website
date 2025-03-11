@@ -4,7 +4,6 @@ import { Gallery } from "react-grid-gallery";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
 
-import PhotoItem from "../components/PhotoItem";
 import {images} from "../helpers/PhotoList";
 import "../styles/Photo.css";
 
