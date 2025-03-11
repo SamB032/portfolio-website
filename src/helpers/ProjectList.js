@@ -4,6 +4,8 @@ import proj3 from "../assets/project3.webp";
 import proj4 from "../assets/project4.webp";
 import proj5 from "../assets/project5.webp";
 import proj6 from "../assets/project6.webp";
+import proj7 from "../assets/project7.webp";
+import proj8 from "../assets/project8.webp";
 
 export const ProjectList = [
     {
@@ -42,4 +44,17 @@ export const ProjectList = [
         link: "https://devpost.com/software/modelhive",
         description: "Real-time artifical intelligence insights. Learn how different algorithms work."
     },
+    {
+        name: "Doomchad theme for Tmux",
+        image: proj7,
+        link: "https://github.com/SamB032/doomchad-tmux",
+        description: "A doomchad theme for tmux from Nvchad neovim."
+    },
+    {
+        name: "Go URL Shortener",
+        image: proj8,
+        link: "https://github.com/SamB032/Go-URL-Shortener",
+        description: "A full scale kubernetes deployment that allows users to access a website and shorten URLs. This uses postgres, Go HTTP standard lib and Traefik."
+    }
+
 ].sort(() => Math.random() - 0.5);
