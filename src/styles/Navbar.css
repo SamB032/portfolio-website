@@ -12,11 +12,24 @@
   color: var(--lightest-slate);
 }
 
+.displayLink {
+  font-family: var(--font-mono)
+}
+
+.displayLinkNumber {
+  color: var(--green);
+}
+
 .navbar a {
   color: var(--lightest-slate);
   text-decoration: none;
   margin: 20px;
-  font-size: 25px;
+  font-size: 20px;
+}
+
+.navbar-align {
+  position: absolute;
+  right: 5%;
 }
 
 .toggleButton {
@@ -54,18 +67,17 @@
   text-align: center;
 }
 
-@media only screen and (max-width: 900px) {
-  .navbar a {
-    width: 70px;
-  }
-}
-
 @media only screen and (max-width: 600px) {
   .toggleButton {
     display: flex;
   }
+
   #close a {
     display: none;
+  }
+
+  .navbar-align {
+    position: unset;
   }
 }
 

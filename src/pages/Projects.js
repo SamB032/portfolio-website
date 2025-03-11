@@ -6,17 +6,26 @@ import "../styles/Projects.css";
 function Projects() {
     return (
         <div className="projects">
+            
+            <h2 className="projectsHeader">Projects</h2>
 
-            <p className="content"> 
-                Here is my project portfolio. This is where can find serval of my past projects. 
-                By clicking on a project, it will send you to GitHub repository containing source code and
-                instructions. 
+            <p className="content text"> 
+                Here are my various projects that I have completed along with source code.
+                
+                Clicking any of the cards will take you to Github with an explaination of what is does and how it works.
             </p>
 
             <div className="projectList">
                 {ProjectList.map((project) => {
                     return (
-                        <ProjectItem key={project.name} name={project.name} image={project.image} link={project.link} target="_blank"/>
+                        <ProjectItem 
+                          key={project.name} 
+                          name={project.name} 
+                          image={project.image} 
+                          link={project.link} 
+                          description={project.description}
+                          target="_blank"
+                        />
                     )
                 })  }
             </div>
