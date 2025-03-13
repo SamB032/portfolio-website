@@ -17,6 +17,20 @@ import photo17 from "../assets/photo17.webp";
 import photo20 from "../assets/photo20.webp";
 import photo21 from "../assets/photo21.webp";
 import photo22 from "../assets/photo22.webp";
+import photo23 from "../assets/photo23.webp";
+import photo24 from "../assets/photo24.webp";
+import photo25 from "../assets/photo25.webp";
+import photo26 from "../assets/photo26.webp";
+import photo27 from "../assets/photo27.webp";
+import photo30 from "../assets/photo30.webp";
+import photo31 from "../assets/photo31.webp";
+import photo32 from "../assets/photo32.webp";
+import photo33 from "../assets/photo33.webp";
+import photo35 from "../assets/photo35.webp";
+import photo37 from "../assets/photo37.webp";
+import photo38 from "../assets/photo38.webp";
+import photo39 from "../assets/photo39.webp";
+import photo40 from "../assets/photo40.webp";
 
 //Command: cwebp file.jpeg -o file.webp
 
@@ -134,5 +148,89 @@ export const images = [
     alt: "Lago di braies",
     width: 980,
     height: 480,
+  },
+  {
+    src: photo23,
+    alt: "Copenhagen Round Tower, Denmark",
+    width: 880,
+    height: 430,
+  },
+  {
+    src: photo24,
+    alt: "Black and White photo, Denmark",
+    width: 620,
+    height: 380
+  },
+  {
+    src: photo25,
+    alt: "Black and White photo, Denmark",
+    width: 720,
+    height: 380,
+  },
+  {
+    src: photo26,
+    alt: "Amalienburg palace, Copenhagen, Denmark",
+    width: 890,
+    height: 480
+  },
+  {
+    src: photo27,
+    alt: "Rosenborg Castle, Denmark",
+    width: 680,
+    height: 380
+  },
+  {
+    src: photo30,
+    alt: "Malmo, Sweeden",
+    width: 720,
+    height: 360,
+  },
+  {
+    src: photo31,
+    alt: "Brynea, Wales",
+    width: 720,
+    height: 360,
+  },
+  {
+    src: photo32,
+    alt: "Bergen, Norway",
+    width: 680,
+    height: 320,
+  },
+  {
+    src: photo33,
+    alt: "Norway",
+    width: 680,
+    height: 320,
+  },
+  {
+    src: photo35,
+    alt: "France",
+    width: 720,
+    height: 320,
+  },
+  {
+    src: photo37,
+    alt: "Cwmcarn, Wales",
+    width: 930,
+    height: 620,
+  },
+  {
+    src: photo38,
+    alt: "Norway",
+    width: 820,
+    height: 320
+  },
+  {
+    src: photo39,
+    alt: "Noway",
+    width: 620,
+    height: 320
+  },
+  {
+    src: photo40,
+    alt: "Nyhavn, Copenhagen, Denmark",
+    width: 620,
+    height: 280
   }
 ].sort(() => Math.random() - 0.5);
