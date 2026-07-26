@@ -1,8 +1,9 @@
 import React from "react";
-import GitHub from "@material-ui/icons/GitHub";
-import LinkedIn from "@material-ui/icons/LinkedIn";
-import Email from "@material-ui/icons/Email";
-import Link from '@material-ui/core/Link';
+import GitHub from '@mui/icons-material/GitHub';
+import LinkedIn from '@mui/icons-material/LinkedIn';
+import Email from '@mui/icons-material/Email';
+import Link from '@mui/icons-material/Link';
+
 import '../styles/Footer.css';
 
 

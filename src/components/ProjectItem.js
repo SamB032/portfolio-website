@@ -1,6 +1,6 @@
 import React from "react";
 import {Link} from 'react-router-dom';
-import CallMadeIcon from '@material-ui/icons/CallMade';
+import CallMadeIcon from '@mui/icons-material/CallMade';
 
 function ProjectItem({image, name, link, description}) {
     return (
