@@ -15,7 +15,7 @@
     "react-dom": "18.3.1",
     "react-grid-gallery": "1.0.1",
     "react-lazy-load-image-component": "1.6.3",
-    "react-router-dom": "6.30.0",
+    "react-router-dom": "6.30.4",
     "react-scripts": "5.0.1",
     "web-vitals": "4.2.4",
     "yet-another-react-lightbox": "3.32.1"
