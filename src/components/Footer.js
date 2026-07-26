@@ -13,19 +13,31 @@ function Footer() {
     return (
         <div className="footer">
             <div className="socialMedia"> 
+                <a
+                    href="https://www.linkedin.com/in/samboffey/"
+                    target="_blank"
+                    rel="noreferrer"
+                    aria-label="LinkedIn"
+                >
+                    <LinkedIn />
+                </a>
 
-                <Link href="https://www.linkedin.com/in/samboffey/" target="_blank" >
-                    <LinkedIn/>
-                </Link>
-                
-                <Link href="https://github.com/SamB032" target="_blank" >
-                    <GitHub/>
-                </Link>
+                <a
+                    href="https://github.com/SamB032"
+                    target="_blank"
+                    rel="noreferrer"
+                    aria-label="GitHub"
+                >
+                    <GitHub />
+                </a>
 
-                <Link href="mailto:sam.boffey04@gmail.com" target="_blank" >
-                    <Email/>
-                </Link>
-               
+                <a
+                    href="mailto:sam.boffey04@gmail.com"
+                    aria-label="Email"
+                >
+                    <Email />
+                </a>
+
             </div>
             <p>
                 &copy;
