@@ -5,6 +5,12 @@ help: ## Show this help message
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | \
 		awk 'BEGIN {FS = ":.*?## "}; {printf "  %-12s %s\n", $$1, $$2}'
 
+install: ## Install project dependicies
+	npm install
+
+format: ## Formats react files using prettier
+	npx prettier --write .
+
 build: ## Build the project
 	podman build -t portfolio-website:test .
 

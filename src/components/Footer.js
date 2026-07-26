@@ -1,38 +1,46 @@
 import React from "react";
-import GitHub from "@material-ui/icons/GitHub";
-import LinkedIn from "@material-ui/icons/LinkedIn";
-import Email from "@material-ui/icons/Email";
-import Link from '@material-ui/core/Link';
-import '../styles/Footer.css';
+import GitHub from "@mui/icons-material/GitHub";
+import LinkedIn from "@mui/icons-material/LinkedIn";
+import Email from "@mui/icons-material/Email";
+import Link from "@mui/icons-material/Link";
 
+import "../styles/Footer.css";
 
 function Footer() {
-    const currentYear = new Date().getFullYear();
+  const currentYear = new Date().getFullYear();
 
-    return (
-        <div className="footer">
-            <div className="socialMedia"> 
+  return (
+    <div className="footer">
+      <div className="socialMedia">
+        <a
+          href="https://www.linkedin.com/in/samboffey/"
+          target="_blank"
+          rel="noreferrer"
+          aria-label="LinkedIn"
+        >
+          <LinkedIn />
+        </a>
 
-                <Link href="https://www.linkedin.com/in/samboffey/" target="_blank" >
-                    <LinkedIn/>
-                </Link>
-                
-                <Link href="https://github.com/SamB032" target="_blank" >
-                    <GitHub/>
-                </Link>
+        <a
+          href="https://github.com/SamB032"
+          target="_blank"
+          rel="noreferrer"
+          aria-label="GitHub"
+        >
+          <GitHub />
+        </a>
 
-                <Link href="mailto:sam.boffey04@gmail.com" target="_blank" >
-                    <Email/>
-                </Link>
-               
-            </div>
-            <p>
-                &copy;
-                <span> {currentYear}</span>
-                <span> {window.location.hostname}</span>
-            </p>
-        </div>
-    )
+        <a href="mailto:sam.boffey04@gmail.com" aria-label="Email">
+          <Email />
+        </a>
+      </div>
+      <p>
+        &copy;
+        <span> {currentYear}</span>
+        <span> {window.location.hostname}</span>
+      </p>
+    </div>
+  );
 }
 
 export default Footer;

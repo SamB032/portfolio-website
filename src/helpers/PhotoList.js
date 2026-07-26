@@ -105,7 +105,7 @@ export const images = [
     src: photo12,
     alt: "Klis Fortress, Croatia",
     width: 920,
-    height: 500
+    height: 500,
   },
   {
     src: photo13,
@@ -117,7 +117,7 @@ export const images = [
     src: photo14,
     alt: "Seiser Alm, Italy",
     width: 800,
-    height: 480
+    height: 480,
   },
   {
     src: photo15,
@@ -129,13 +129,13 @@ export const images = [
     src: photo17,
     alt: "Venice, Italy",
     width: 800,
-    height: 400
+    height: 400,
   },
   {
     src: photo20,
     alt: "Torpantau, Brecon, Wales",
     width: 850,
-    height: 580
+    height: 580,
   },
   {
     src: photo21,
@@ -159,7 +159,7 @@ export const images = [
     src: photo24,
     alt: "Black and White photo, Denmark",
     width: 620,
-    height: 380
+    height: 380,
   },
   {
     src: photo25,
@@ -171,13 +171,13 @@ export const images = [
     src: photo26,
     alt: "Amalienburg palace, Copenhagen, Denmark",
     width: 890,
-    height: 480
+    height: 480,
   },
   {
     src: photo27,
     alt: "Rosenborg Castle, Denmark",
     width: 680,
-    height: 380
+    height: 380,
   },
   {
     src: photo30,
@@ -219,18 +219,18 @@ export const images = [
     src: photo38,
     alt: "Norway",
     width: 820,
-    height: 320
+    height: 320,
   },
   {
     src: photo39,
     alt: "Noway",
     width: 620,
-    height: 320
+    height: 320,
   },
   {
     src: photo40,
     alt: "Nyhavn, Copenhagen, Denmark",
     width: 620,
-    height: 280
-  }
+    height: 280,
+  },
 ].sort(() => Math.random() - 0.5);

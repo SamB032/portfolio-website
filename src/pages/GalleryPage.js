@@ -1,10 +1,10 @@
-import React from 'react';
+import React from "react";
 import { useState } from "react";
 import { Gallery } from "react-grid-gallery";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
 
-import {images} from "../helpers/PhotoList";
+import { images } from "../helpers/PhotoList";
 import "../styles/Photo.css";
 
 function GalleryPage() {
@@ -16,15 +16,15 @@ function GalleryPage() {
       <div className="photos">
         <h2 className="galleryHeader">Gallery</h2>
 
-        <p className="content text"> 
-            These photos were taken using a modern smartphone.
-            Feel free to use these if you want.
+        <p className="content text">
+          These photos were taken using a modern smartphone. Feel free to use
+          these if you want.
         </p>
       </div>
-    
+
       <div>
-        <Gallery 
-          images={images} 
+        <Gallery
+          images={images}
           onClick={handleClick}
           enableImageSelection={false}
           rowHeight={210}
@@ -37,7 +37,7 @@ function GalleryPage() {
         />
       </div>
     </div>
-  )
+  );
 }
 
 export default GalleryPage;
