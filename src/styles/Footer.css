@@ -1,26 +1,26 @@
 .footer {
-    width: 100%;
-    height: 180px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  width: 100%;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .socialMedia svg {
-    color: var(--lightest-slate);
-    margin: 5px;
-    font-size: 55px;
-    cursor: pointer;
-    transform: scale(0.8);
+  color: var(--lightest-slate);
+  margin: 5px;
+  font-size: 55px;
+  cursor: pointer;
+  transform: scale(0.8);
 }
 
 .footer p {
-    color: var(--lightest-slate);
+  color: var(--lightest-slate);
 }
 
 @media only screen and (max-width: 600px) {
-    .footer svg {
-        font-size: 50px;
-    }
+  .footer svg {
+    font-size: 50px;
+  }
 }

@@ -1,10 +1,10 @@
 .projects {
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .content {
@@ -21,7 +21,7 @@
   margin-top: 0px;
   margin-bottom: 15px;
 }
-  
+
 .projectList {
   width: 50%;
   display: contents;
@@ -36,7 +36,9 @@
   overflow: hidden;
   text-decoration: none;
   color: #e2e8f0;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
   margin-bottom: 20px;
   max-width: 650px;
 }
@@ -129,14 +131,14 @@
 }
 
 @media only screen and (max-width: 650px) {
-    .project-bg {
-        width: 60%;
-        height: 60%;
-    }
+  .project-bg {
+    width: 60%;
+    height: 60%;
+  }
 }
 
 @media only screen and (max-width: 400px) {
-    .project-header svg {
-      display: None;
-    }
+  .project-header svg {
+    display: None;
+  }
 }

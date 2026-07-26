@@ -1,7 +1,7 @@
 .photos {
-    width: 100%;
-    margin: auto;
-    text-align: center;
+  width: 100%;
+  margin: auto;
+  text-align: center;
 }
 
 .galleryHeader {
@@ -13,10 +13,10 @@
 }
 
 .content {
-    color: var(--slate);
-    font-size: 18px;
-    justify-content: center;
-    width: 60%;
-    margin: auto;
-    margin-bottom: 20px;
+  color: var(--slate);
+  font-size: 18px;
+  justify-content: center;
+  width: 60%;
+  margin: auto;
+  margin-bottom: 20px;
 }
