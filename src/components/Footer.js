@@ -2,7 +2,6 @@ import React from "react";
 import GitHub from "@mui/icons-material/GitHub";
 import LinkedIn from "@mui/icons-material/LinkedIn";
 import Email from "@mui/icons-material/Email";
-import Link from "@mui/icons-material/Link";
 
 import "../styles/Footer.css";
 
